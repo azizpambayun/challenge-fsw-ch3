@@ -1,0 +1,9 @@
+body {
+  height: 9000px;
+}
+
+.bg-img {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
