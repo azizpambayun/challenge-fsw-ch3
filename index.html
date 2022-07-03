@@ -59,13 +59,46 @@
     <!--Awal The Games Section-->
     <section class="bg-img" style="background-image: url('./img/the-games-bg.jpg')">
       <div class="container">
-        <div class="row justify-content-start align-items-center" style="height: 100vh">
-          <div class="col-4 text-start">
-            <p class="text-white fw-light">What's so special?</p>
+        <div class="row d-flex align-content-center align-items-start" style="height: 100vh;">
+          <div class="col text-end">
+            <p class="text-white fw-light mb-0">What's so special?</p>
             <h1 class="text-white fw-bold">THE GAMES</h1>
           </div>
-          <div class="col">
-            <img src="./img/rockpaperstrategy-1600.jpg" class="float-end" alt="suit gambar" width="700px" />
+          <div class="col-8">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <ol class="carousel-indicators" id="myCarousel-indicators">
+                <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+                <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></li>
+                <li type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="gunting kertas batu">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="gunting kertas batu 1">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="gunting kertas batu 2">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="gunting kertas batu 3">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./img/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="gunting kertas batu 4">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -77,31 +110,30 @@
     <!--Awal Features Section-->
     <section class="bg-img" style="background-image: url('./img/features.jpg')">
       <div class="container justify-content-start">
-        <div class="row">
+        <div class="row d-flex align-content-center">
           <div class="col-6">
-
+            <!--Kosongan-->
           </div>
-          <div class="col mt-xl-5 ms-md-3">
-            <h6 class="text-light">What's so special?</h6>
-            <h2 class="text-light">FEATURES</h2>
-            <div class="card" style="width: 70%;">
-              <div class="card-body">
-                <h5 class="card-title" style="color:darkorange">TRADITIONAL GAMES</h5>
-                <p class="card-text">If you miss your childhood. we provide many traditional games here</p>
-              </div>
-            </div>
-            <div class="card" style="width: 70%;">
-              <div class="card-body">
-                <h5 class="card-title" style="color:darkorange">GAME SUIT</h5>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem veritatis debitis itaque!</p>
-              </div>
-            </div>
-            <div class="card" style="width: 70%;">
-              <div class="card-body">
-                <h5 class="card-title" style="color:darkorange">TBD</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio!</p>
-              </div>
-            </div>
+          <div class="col-md-6 offset-md-6 d-flex flex-column align-content-start justify-content-center" style="height: 100vh;">
+            <p class="text-white mb-1" style="margin-left: 1.2rem;">What's so special?</p>
+            <h1 class="text-white mb-4" style="margin-left: 1.2rem;">FEATURES</h1>
+            <ul class="timeline-3">
+              <li>
+                <h5 style="color:orange">TRADITIONAL GAME</h5>
+                <p class="text-white mt-2">If you miss your childhood, we provide many traditional games here</p>
+              </li>
+              <li>
+                <h5 style="color:orange">GAME SUIT</h5>
+                <p class="text-white mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              </li>
+              <li>
+                <h5 style="color:orange">PETAK UMPET</h5>
+                <p class="text-white mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facilis eveniet nihil!</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
           </div>
     </section>
     <!--Akhir Features Section-->
@@ -278,9 +310,9 @@
       </div>
       <!-- Awal Footer-->
       <div class="container">
-        <div class="d-flex flex-wrap justify-content-between align-items-center">
-          <p class="col-md-4 mb-0 text-secondary">© 2018 Your Games, Inc. All Rights Reserved</p>
-          <ul class="nav col-md-7 justify-content-end">
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="col mb-0 text-secondary">© 2018 Your Games, Inc. All Rights Reserved</p>
+          <ul class="nav col justify-content-end">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white">PRIVACY POLICY</a></li>
             <li class="nav-item"><a href="#" class="nav-link disabled px-2 text-white">|</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white">TERMS OF SERVICES</a></li>
@@ -294,16 +326,6 @@
       <!--Akhir Footer-->
     </section>
     <!--Akhir Newsletter Section-->
-
-
-    <!-- Awal Footer-->
-    
-
-
-    <!--Akhir Footer-->
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
