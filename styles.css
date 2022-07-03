@@ -48,3 +48,7 @@ ul.timeline-3 > li:before {
   height: 20px;
   z-index: 400;
 }
+
+.mamang {
+  background-size: 20vh;
+}
